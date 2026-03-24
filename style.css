@@ -1,0 +1,12 @@
+@media (max-width: 991px) {
+
+    nav {
+        position: relative !important;
+        height: auto !important;
+    }
+
+    .col-lg-9 {
+        margin-left: 0 !important;
+    }
+
+}
