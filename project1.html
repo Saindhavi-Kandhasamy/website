@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Responsive Sidebar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <nav class="col-lg-3 col-12 bg-dark navbar navbar-dark navbar-expand-lg flex-lg-column p-4 position-static">
+
+                <a class="h1 navbar-brand m-lg-5 m-0 text-center w-100" href="#">Alex Smith</a>
+                <div class="navbar-collapse flex-lg-column mt-3">
+                    <div class="text-center w-100 mb-3">
+                        <img src="./man1.jfif" class="img-fluid rounded-circle border border-3 border-secondary mb-5"
+                            width="120">
+                    </div>
+
+                    <div class="d-flex justify-content-center gap-3 mb-4">
+                        <i class="bi bi-twitter-x text-white"></i>
+                        <i class="bi bi-facebook text-white"></i>
+                        <i class="bi bi-instagram text-white"></i>
+                        <i class="bi bi-linkedin text-white"></i>
+                    </div>
+
+                    <ul class="navbar-nav flex-column w-100 m-lg-5 m-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="bi bi-house me-2"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">
+                                <i class="bi bi-person me-2"></i>About
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">
+                                <i class="bi bi-file-earmark-text me-2"></i>Resume
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">
+                                <i class="bi bi-images me-2"></i>Portfolio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section4">
+                                <i class="bi bi-hdd-stack me-2"></i>Services
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section5">
+                                <i class="bi bi-envelope me-2 mb-5"></i>Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div class="col-lg-9 offset-lg-3 col-12 p-5 mt-5 mt-lg-0">
+                <img src="./man1.jfif" class="w-100">
+                <div class="col h1 mb-0 mt-5" id="section1">About</div>
+                <div class="text-primary h1 mt-0">____</div>
+                <p class="mt-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                    quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                    alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <div class="container"></div>
+                <img src="./man1.jfif" class="mt-5 me-3" style="float:left">
+                <div class=" h1" style="float:left">UI/UX Designer & Web Developer.</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <div class="row">
+                    <div class="col"><b>Birthday:</b> 1 May 1995</div>
+                    <div class="col"><b>Age:</b> 31</div>
+                </div>
+                <div class="row">
+                    <div class="col"><b>Website:</b> www.example.com</div>
+                    <div class="col"><b>Degree:</b> Master</div>
+                </div>
+                <div class="row">
+                    <div class="col"><b>Phone:</b> +123 456 7890</div>
+                    <div class="col"><b>Email:</b> email@example.com</div>
+                </div>
+                <div class="row">
+                    <div class="col mb-5"><b>City:</b> New York, USA</div>
+                    <div class="col"><b>Freelance:</b> Available</div>
+                </div>
+                <p class="justify-content-end">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero.
+                    Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                    Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque
+                    neque.</p>
+                <div class="row text-center g-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="d-flex align-items-center justify-content-center mb-2">
+                            <i class="bi bi-emoji-smile fs-1 me-3"></i>
+                            <h2 class="mb-0 fw-bold">232</h2>
+                        </div>
+                        <h6 class="fw-semibold mb-1">Happy Clients</h6>
+                        <p class="mb-0 small">consequuntur quae</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="d-flex align-items-center justify-content-center mb-2">
+                            <i class="bi bi-journal-check fs-1 me-3"></i>
+                            <h2 class="mb-0 fw-bold">521</h2>
+                        </div>
+                        <h6 class="fw-semibold mb-1">Projects</h6>
+                        <p class="mb-0 small">adipisci atque cum quia aut</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="d-flex align-items-center justify-content-center mb-2">
+                            <i class="bi bi-headset fs-1 me-3"></i>
+                            <h2 class="mb-0 fw-bold">1453</h2>
+                        </div>
+                        <h6 class="fw-semibold mb-1">Hours Of Support</h6>
+                        <p class="mb-0 small">aut commodi quaerat</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="d-flex align-items-center justify-content-center mb-2">
+                            <i class="bi bi-people fs-1 me-3"></i>
+                            <h2 class="mb-0 fw-bold">32</h2>
+                        </div>
+                        <h6 class="fw-semibold mb-1">Hard Workers</h6>
+                        <p class="mb-0 small">rerum asperiores dolor</p>
+                    </div>
+                    <div class="col my-5">
+                        <div class="row h1 ms-2">Skills</div>
+                        <div class="row text-primary h1 mt-0 ms-2">____</div>
+                        <p class="row ms-2 my-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                            consectetur velit</p>
+                        <div class="row">
+                            <div class="mb-4 col">
+                                <div class="d-flex justify-content-between">
+                                    <span>HTML</span>
+                                    <span>100%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <div class="mb-4 col">
+                                <div class="d-flex justify-content-between">
+                                    <span class="ms-2">PHP</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress ms-1">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-4 col">
+                                    <div class="d-flex justify-content-between">
+                                        <span>CSS</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-4 col">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="ms-3">WORDPRESS/CMS</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="progress ms-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-4 col">
+                                        <div class="d-flex justify-content-between">
+                                            <span>JAVASCRIPT</span>
+                                            <span>75%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4 col">
+                                        <div class="d-flex justify-content-between">
+                                            <span class="ms-4">PHOTOSHOP</span>
+                                            <span>55%</span>
+                                        </div>
+                                        <div class="progress ms-4">
+                                            <div class="progress-bar" role="progressbar" style="width: 55%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h1" id="section2">Resume</div>
+                <div class="h1 text-primary">____</div>
+                <div class="mt-3">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                    quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                    alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</div>
+                <section class="py-5">
+                    <div class="container">
+
+                        <div class="row g-5">
+
+                            <div class="col-lg-6">
+
+                                <h3 class="fw-bold mb-4">Summary</h3>
+
+                                <div class="border-start border-3 ps-3 mb-4">
+                                    <h5 class="fw-bold mb-1">BRANDON JOHNSON</h5>
+                                    <p class="fst-italic">
+                                        Innovative and deadline-driven Graphic Designer with 3+ years of experience
+                                        designing
+                                        and developing user-centered digital/print marketing material from initial
+                                        concept to final,
+                                        polished deliverable.
+                                    </p>
+                                    <ul class="mb-0">
+                                        <li>Portland par 127, Orlando, FL</li>
+                                        <li>(123) 456-7891</li>
+                                        <li>alice.barkley@example.com</li>
+                                    </ul>
+                                </div>
+
+                                <h3 class="fw-bold mb-4">Education</h3>
+
+                                <div class="border-start border-3 ps-3 mb-4">
+                                    <h5 class="fw-bold mb-1">MASTER OF FINE ARTS & GRAPHIC DESIGN</h5>
+                                    <p class="fw-semibold mb-1">2015 - 2016</p>
+                                    <p class="fst-italic">Rochester Institute of Technology, Rochester, NY</p>
+                                    <p>
+                                        Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit.
+                                        Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend
+                                    </p>
+                                </div>
+
+                                <div class="border-start border-3 ps-3">
+                                    <h5 class="fw-bold mb-1">BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h5>
+                                    <p class="fw-semibold mb-1">2010 - 2014</p>
+                                    <p class="fst-italic">Rochester Institute of Technology, Rochester, NY</p>
+                                    <p>
+                                        Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis
+                                        Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <h3 class="fw-bold mb-4">Professional Experience</h3>
+
+                                <div class="border-start border-3 ps-3 mb-4">
+                                    <h5 class="fw-bold mb-1">SENIOR GRAPHIC DESIGN SPECIALIST</h5>
+                                    <p class="fw-semibold mb-1">2019 - Present</p>
+                                    <p class="fst-italic">Experion, New York, NY</p>
+                                    <ul>
+                                        <li>Lead in the design, development, and implementation of the graphic, layout,
+                                            and production communication materials</li>
+                                        <li>Delegate tasks to the 7 members of the design team and provide counsel on
+                                            all aspects of the project</li>
+                                        <li>Supervise the assessment of all graphic materials in order to ensure quality
+                                            and accuracy of the design</li>
+                                        <li>Oversee the efficient use of production project budgets ranging from $2,000
+                                            - $25,000</li>
+                                    </ul>
+                                </div>
+
+                                <div class="border-start border-3 ps-3">
+                                    <h5 class="fw-bold mb-1">GRAPHIC DESIGN SPECIALIST</h5>
+                                    <p class="fw-semibold mb-1">2017 - 2018</p>
+                                    <p class="fst-italic">Stepping Stone Advertising, New York, NY</p>
+                                    <ul>
+                                        <li>Developed numerous marketing programs (logos, brochures, infographics,
+                                            presentations, and advertisements)</li>
+                                        <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                                        <li>Recommended and consulted with clients on the most appropriate graphic
+                                            design</li>
+                                        <li>Created 4+ design presentations and proposals a month for clients and
+                                            account managers</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section class="py-5 bg-light">
+                    <div class="container">
+
+                        <div class="mb-4">
+                            <h2 class="fw-bold" id="section3">Portfolio</h2>
+                            <p>
+                                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                                quidem.
+                                Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
+                            </p>
+                        </div>
+
+                        <ul class="nav justify-content-center mb-4">
+                            <li class="nav-item"><a class="nav-link active"
+                                    href="https://www.bing.com/images/search?q=google+images&form=HDRSC3&first=1">ALL</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">APP</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">PRODUCT</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">BRANDING</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">BOOKS</a></li>
+                        </ul>
+
+                        <div class="row g-4">
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="./phone.jpg" class="img-fluid" alt="Portfolio Image 1">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="./watch.jfif" class="img-fluid" alt="Portfolio Image 2">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="./cosmetic.jfif" class="img-fluid" alt="Portfolio Image 3">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="book2.jfif" class="img-fluid" alt="Portfolio Image 4">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="phone2.jfif" class="img-fluid" alt="Portfolio Image 5">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="camera.jfif" class="img-fluid" alt="Portfolio Image 6">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="cosmetic2.jfif" class="img-fluid" alt="Portfolio Image 7">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="./man1.jfif" class="img-fluid" alt="Portfolio Image 8">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="phone2.jfif" class="img-fluid" alt="Portfolio Image 9">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="./daisy.jpg" class="img-fluid" alt="Portfolio Image 7">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="man.jfif" class="img-fluid" alt="Portfolio Image 8">
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <img src="phone3.jfif" class="img-fluid" alt="Portfolio Image 9">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section class="py-5 bg-light">
+                    <div class="container">
+
+                        <div class="mb-5">
+                            <h2 class="fw-bold" id="section4">Services</h2>
+                            <p>
+                                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                                quidem.
+                                Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
+                            </p>
+                        </div>
+
+                        <div class="row g-4">
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                        <div class="d-flex align-items-center justify-content-center rounded-circle bg-primary text-white"
+                                            style="width:60px; height:60px;">
+                                            <i class="bi bi-briefcase fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Lorem Ipsum</h5>
+                                        <p class="mb-0">
+                                            Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                                            sint occaecati cupiditate non provident
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                        <div class="d-flex align-items-center justify-content-center rounded-circle bg-primary text-white"
+                                            style="width:60px; height:60px;">
+                                            <i class="bi bi-card-checklist fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Dolor Sitena</h5>
+                                        <p class="mb-0">
+                                            Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                            ea commodo consequat
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                        <div class="d-flex align-items-center justify-content-center rounded-circle bg-primary text-white"
+                                            style="width:60px; height:60px;">
+                                            <i class="bi bi-bar-chart fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Sed ut perspiciatis</h5>
+                                        <p class="mb-0">
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                            eu fugiat nulla pariatur
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                        <div class="d-flex align-items-center justify-content-center rounded-circle bg-primary text-white"
+                                            style="width:60px; height:60px;">
+                                            <i class="bi bi-binoculars fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Magni Dolores</h5>
+                                        <p class="mb-0">
+                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                        <div class="d-flex align-items-center justify-content-center rounded-circle bg-primary text-white"
+                                            style="width:60px; height:60px;">
+                                            <i class="bi bi-brightness-high fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Nemo Enim</h5>
+                                        <p class="mb-0">
+                                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                            praesentium voluptatum deleniti atque
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="d-flex">
+                                    <div class="me-3">
+                                        <div class="d-flex align-items-center justify-content-center rounded-circle bg-primary text-white"
+                                            style="width:60px; height:60px;">
+                                            <i class="bi bi-calendar-event fs-4"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Eiusmod Tempor</h5>
+                                        <p class="mb-0">
+                                            Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+                                            tempore, cum soluta nobis est eligendi
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section class="py-5 bg-light">
+                    <div class="container">
+
+                        <div class="text-center mb-5">
+                            <h2 class="fw-bold">Testimonials</h2>
+                            <p>What people are saying about me</p>
+                        </div>
+
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                            <div class="carousel-indicators position-static mt-4">
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                    class="active bg-primary" aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                                    class="bg-primary" aria-label="Slide 2"></button>
+                            </div>
+
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <div class="row g-4">
+
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                                                <img src="https://randomuser.me/api/portraits/men/32.jpg"
+                                                    class="rounded-circle mx-auto mb-3" width="100" height="100" alt="">
+                                                <h6 class="fw-bold mb-0">Saul Goodman</h6>
+                                                <small class="text-muted d-block mb-3">CEO & Founder</small>
+                                                <p class="fst-italic">
+                                                    <i class="bi bi-quote text-primary fs-4"></i>
+                                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                                                    entum suscipit rhoncus.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                                                <img src="https://randomuser.me/api/portraits/women/44.jpg"
+                                                    class="rounded-circle mx-auto mb-3" width="100" height="100" alt="">
+                                                <h6 class="fw-bold mb-0">Sara Wilsson</h6>
+                                                <small class="text-muted d-block mb-3">Designer</small>
+                                                <p class="fst-italic">
+                                                    <i class="bi bi-quote text-primary fs-4"></i>
+                                                    Export tempor illum tamen malis malis eram quae irure esse labore
+                                                    quem cillum quid.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-4 d-none d-lg-block">
+                                            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                                                <img src="https://randomuser.me/api/portraits/women/68.jpg"
+                                                    class="rounded-circle mx-auto mb-3" width="100" height="100" alt="">
+                                                <h6 class="fw-bold mb-0">Jena Karlis</h6>
+                                                <small class="text-muted d-block mb-3">Store Owner</small>
+                                                <p class="fst-italic">
+                                                    <i class="bi bi-quote text-primary fs-4"></i>
+                                                    Enim nisi quem export duis labore cillum quae magna enim sint
+                                                    quorum nulla.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row g-4">
+
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                                                <img src="https://randomuser.me/api/portraits/men/45.jpg"
+                                                    class="rounded-circle mx-auto mb-3" width="100" height="100" alt="">
+                                                <h6 class="fw-bold mb-0">Matt Brandon</h6>
+                                                <small class="text-muted d-block mb-3">Freelancer</small>
+                                                <p class="fst-italic">
+                                                    <i class="bi bi-quote text-primary fs-4"></i>
+                                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+                                                    export minim.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                                                <img src="https://randomuser.me/api/portraits/men/12.jpg"
+                                                    class="rounded-circle mx-auto mb-3" width="100" height="100" alt="">
+                                                <h6 class="fw-bold mb-0">John Larson</h6>
+                                                <small class="text-muted d-block mb-3">Entrepreneur</small>
+                                                <p class="fst-italic">
+                                                    <i class="bi bi-quote text-primary fs-4"></i>
+                                                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+                                                    veniam.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-4 d-none d-lg-block">
+                                            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                                                <img src="https://randomuser.me/api/portraits/women/65.jpg"
+                                                    class="rounded-circle mx-auto mb-3" width="100" height="100" alt="">
+                                                <h6 class="fw-bold mb-0">Anna Smith</h6>
+                                                <small class="text-muted d-block mb-3">Manager</small>
+                                                <p class="fst-italic">
+                                                    <i class="bi bi-quote text-primary fs-4"></i>
+                                                    Proin iaculis purus consequat sem cure digni ssim donec
+                                                    porttitora entum.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section class="py-5 bg-light">
+                    <div class="container">
+
+                        <div class="mb-5">
+                            <h2 class="fw-bold" id="section5">Contact</h2>
+                            <div class="text-primary">____</div>
+                            <p class="mt-3">
+                                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                            </p>
+                        </div>
+
+                        <div class="row g-4">
+
+                            <div class="col-lg-5">
+                                <div class="bg-white p-4 shadow-sm h-100">
+
+                                    <div class="d-flex mb-4">
+                                        <i class="bi bi-geo-alt fs-3 text-primary me-3"></i>
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Address</h6>
+                                            <small>A108 Adam Street, New York, NY 535022</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex mb-4">
+                                        <i class="bi bi-telephone fs-3 text-primary me-3"></i>
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Call Us</h6>
+                                            <small>+1 5589 55488 55</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex mb-4">
+                                        <i class="bi bi-envelope fs-3 text-primary me-3"></i>
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Email Us</h6>
+                                            <small>info@example.com</small>
+                                        </div>
+                                    </div>
+
+                                    <iframe
+                                        src="https://maps.google.com/maps?q=New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                        class="w-100" height="250" loading="lazy">
+                                    </iframe>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7">
+                                <div class="bg-white p-4 shadow-sm">
+
+                                    <form>
+
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label class="form-label">Your Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+
+                                            <div class="col-md-6 mb-3">
+                                                <label class="form-label">Your Email</label>
+                                                <input type="email" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Subject</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Message</label>
+                                            <textarea class="form-control" rows="6"></textarea>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <button class="btn btn-primary px-4">
+                                                Send Message
+                                            </button>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+</body>
+
+</html>
